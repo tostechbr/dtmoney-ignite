@@ -17,5 +17,5 @@ export function Header({onOpenNewTransactionModal}: HeaderProps) {
                 </button>
             </Content>
         </Container>
-    )
+    );
 }
