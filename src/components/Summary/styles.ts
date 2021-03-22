@@ -7,6 +7,7 @@ export const Container = styled.div`
     margin-top: -10rem;
 
     div {
+        border: 2px solid red;
         background: var(--shape);
         padding: 1.5rem 2rem;
         border-radius: 0.25rem;
