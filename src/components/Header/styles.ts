@@ -28,5 +28,9 @@ export const Content = styled.div`
         &:hover {
             filter: brightness(0.9);
         }
+
+        @media (max-width:920px){
+            padding: 0 .5rem;
+        }
     }
 `;

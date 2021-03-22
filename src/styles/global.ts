@@ -64,13 +64,28 @@ export const GlobalStyle = createGlobalStyle `
         align-items: center;
         justify-content: center;
     }
+
+    @media (max-width:920px){
+        .react-modal-overlay{
+            display:flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+    }
+    
     .react-modal-content{
         width: 100%;
         max-width: 576px;
         background: var(--background);
         padding: 3rem;
         position: relative;
-        border-radius: 0.25rem;
+        
+    }
+
+    @media (max-width:920px){
+        .react-modal-content{
+            border-radius: 16px 16px 0px 0px;
+        }
     }
 
     .react-modal-close{

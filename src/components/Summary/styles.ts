@@ -5,13 +5,21 @@ export const Container = styled.div`
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-top: -10rem;
+    
+    @media (max-width:920px){
+            overflow: auto;
+        }
 
     div {
-        border: 2px solid red;
         background: var(--shape);
         padding: 1.5rem 2rem;
         border-radius: 0.25rem;
         color: var(--text-title);
+
+        @media (max-width:920px){
+            padding: 3rem 3rem;
+        }
+        
 
         header {
             display: flex;

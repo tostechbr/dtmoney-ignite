@@ -13,7 +13,6 @@ export const Container = styled.div`
         }
 
         th {
-            border: 2px solid red;
             color: var(--text-body-bg);
             font-weight: 400;
             padding: 1rem 2rem;
